@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  var person = {
+    name:{
+      firstname:'hojun',
+      lastname: 'lee',
+    },
+    age:10,
+    married:true,
+  };
+  document.write(person['name']);
+  document.write('<br>');
+  document.write(person['name']['firstname']);  //name 자리에 인덱스 자리지만
+  document.write('<br>');                            //이렇게 사용 됨
+  document.write(person['name']['lastname']);
+  document.write('<br>');
+  document.write(person['age']);  //name 자리에 인덱스 자리지만 
+  document.write('<br>');
+  </script>
+
+</body>
+</html>
